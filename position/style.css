@@ -1,0 +1,92 @@
+html {
+    font-size: 16px;
+}
+
+#page {
+    width: 100wv;
+    height: 300dvh;
+    background-color: #eee;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.shape {
+    aspect-ratio: 1/1;
+    color: #fff;
+    background-color: hsla(0, 0%, 20%, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.square-1 {
+    width: 100px;
+    background-color: hsla(328, 100%, 50%, 0.5);
+}
+
+.square-2 {
+    width: 150px;
+    background-color: hsla(56, 91%, 60%, 0.5);
+}
+
+.square-3 {
+    width: 200px;
+    background-color: hsla(198, 73%, 49%, 0.5);
+}
+
+.circle-1 {
+    width: 250px;
+    border-radius: 50%;
+    background-color: hsla(105, 94%, 58%, 0.5);
+}
+
+.circle-2 {
+    width: 300px;
+    border-radius: 50%;
+    background-color: hsla(11, 100%, 50%, 0.5);
+}
+
+.circle-3 {
+    width: 350px;
+    border-radius: 50%;
+    background-color: hsla(263, 91%, 61%, 0.5);
+}
+
+.pos-a1{
+    position: absolute;
+    bottom:0;
+    right:0;
+    z-index: 1;
+}
+
+.pos-a2{
+    position: absolute;
+    top:-20px;
+    left:20px;
+    z-index: 4;
+
+}
+
+.pos-a3{
+    position: absolute;
+    top: 2px;
+    left:-20px;
+    z-index: 3;
+}
+
+.pos-a4{
+    position: absolute;
+    top:-20px;
+    left:-20px;
+    z-index: 2;
+}
+
+.pos-f1{
+    position: fixed;
+    bottom:0;
+    right:45%;
+    z-index: 5;
+}

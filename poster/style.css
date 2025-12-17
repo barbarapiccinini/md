@@ -11,9 +11,8 @@ body {
 }
 
 .poster {
-    width: 100%;
-    max-width: 375px;
-    min-height: 667px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
@@ -473,15 +472,23 @@ CLASSI DI SPACING
         flex-direction: column;
         justify-content: space-evenly;
         flex-wrap: wrap;
+        padding-top: 33vh;
     }
 
+    .poster-image {
+        width: 80vh;
+        margin-top: 10vh;
     }
 
-    .poster-content {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        flex-wrap: wrap;
-        column-count: 3;
-        padding-top: 75px;
-    }
+}
+
+.poster-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    order: 3;
+    padding-left: 80vh;
+    padding-top: 50vh;
+}
